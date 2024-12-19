@@ -1,0 +1,111 @@
+:root {
+  /* FONTS */
+  --scary-font: 'Metal Mania';
+  --typewriter-font: 'Inconsolata';
+  --funny-font: 'Balsamiq Sans';
+  --curly-font: 'Pacifico';
+  --old-style-font: 'Cinzel';
+  --simple-font: 'Noto Sans HK';
+  --funky-font: 'MuseoModerno';
+  --sweet-font: 'Lobster';
+  --professional-font: 'Old Standard TT';
+  --elegant-font: 'Sora';
+}
+
+
+
+body {
+  box-sizing: border-box;
+  font-family: var(--elegant-font);
+  margin: 0;
+}
+
+
+html {
+  padding: 0;
+
+}
+
+.img {
+  height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.caption {
+  display: none;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.95);
+  box-sizing: border-box;
+}
+
+.caption a {
+  color: white;
+}
+
+.item:hover .caption {
+  display: block;
+}
+
+
+.frame {
+  box-sizing: border-box;
+  height: 25vw;
+  position: absolute;
+  top: 10px;
+  left: 25%;
+  width: 50%;
+  opacity: 0;
+}
+
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+
+
+.name {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 20px;
+  display: inline;
+  box-shadow: 3px 3px 10px rgb(0 0 0 / 0.5);
+}
+
+h5 {
+  margin: 0;
+}
+
+.name {
+  color: white;
+  text-align: center;
+}
+
+.divider {
+  width: 50%;
+  margin: 10px auto;
+}
+
+.position {
+  text-transform: uppercase;
+  box-shadow: 3px 3px 10px rgb(0 0 0 / 0.2);
+  padding: 8px 16px;
+}
